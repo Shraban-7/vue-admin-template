@@ -1,13 +1,16 @@
-<script setup>
-import PopUp from "@/components/form/PopUp.vue";
+<script lang="ts" setup>
 import BaseLayout from "@/layouts/BaseLayout.vue";
 </script>
 
 <template>
-  <BaseLayout>
-    <div class="p-4">Dashboard</div>
-    <PopUp/>
-  </BaseLayout>
+  <div>
+    <BaseLayout>
+      <div class="dashboard">
+      <h1>Dashboard</h1>
+      <!-- Dashboard content -->
+      </div>
+    </BaseLayout>
+  </div>
 </template>
 
 <style scoped></style>

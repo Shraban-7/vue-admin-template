@@ -1,10 +1,12 @@
 <template>
-  <div>
-    <RouterView />
+  <div id="app">
+    <div class="content">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
-<script setup>
-import BaseLayout from "./layouts/BaseLayout.vue";
-import { RouterView } from "vue-router";
+
+<script setup lang="ts">
+
 </script>
 <style></style>

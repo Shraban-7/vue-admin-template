@@ -16,9 +16,7 @@
 
       <!-- Main content where routed pages will render -->
       <main class="flex-1 p-6 bg-gray-100 transition-all duration-300">
-       
-          <slot />
-     
+        <slot />
       </main>
     </div>
 

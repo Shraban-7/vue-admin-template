@@ -29,7 +29,10 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         midnight: "#092635", // Midnigh Blue
-        deepTeal: "#1B4242", // Deep Teal
+        deepTeal: {
+          DEFAULT: '#00474f', // Your existing deepTeal color
+          light: '#005f6b', // A slightly lighter shade for the active state
+        },
         sage: "#5C8374", // Sage Green
         softMint: "#9EC8B9", // Soft Mint
         primary: {
